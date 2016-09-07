@@ -29,13 +29,11 @@ void draw() {
   }
   popMatrix();
   
-  //PFont F02 = loadFont("Futura-CondensedMedium-24.vlw");
-  PFont F01 = loadFont("JCfg-32.vlw");
+  PFont F01 = loadFont("Courier-32.vlw");
   textFont(F01);
   textAlign(CENTER);
-  drawOutlineText("beyond2020", 0,0 +radius +200, 36, color(100), color(0,0,100));
-
-  endRecord();
+  drawOutlineText("beyond2020", 0,0 +radius +200, 36, color(193,35,41), color(0,0,100));
+  //endRecord();
   //exit();
 }
 
