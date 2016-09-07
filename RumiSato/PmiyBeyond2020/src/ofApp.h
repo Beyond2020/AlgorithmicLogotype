@@ -25,14 +25,7 @@ class ofApp : public ofBaseApp{
     ofColor c;
     float hue;
     float alph = 100;
-    
-    
-    ofVideoGrabber grabber;
-    
-    vector <ofRectangle> dropZoneRects;
-    vector <ofImage> images;
-    vector <ofPoint> boxTrail;
-    
+
     bool						oneShot;
     bool						pdfRendering;
     
