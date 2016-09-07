@@ -24,6 +24,7 @@ class ofApp : public ofBaseApp{
     ofTrueTypeFont beyondFont;
     ofColor c;
     float hue;
+    float alph = 100;
     
     
     ofVideoGrabber grabber;
