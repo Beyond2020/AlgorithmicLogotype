@@ -63,7 +63,7 @@ void ofApp::draw(){
         ofBeginSaveScreenAsPDF("screenshot-"+ofGetTimestampString()+".pdf", false);
         
         ////メッシュのエクスポートがうまくいっていません。(課題：全てのオブジェクトを一つのメッシュにする。)
-        BigMesh.save("mesh-"+ofGetTimestampString()+".ply");
+        mesh.save("mesh-"+ofGetTimestampString()+".ply");
     }
    
 
