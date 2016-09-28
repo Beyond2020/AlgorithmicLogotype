@@ -6,6 +6,7 @@ int radius = 50;
 int S = 100;
 int B = 100;
 int A = 50;
+static float min = 0.2;
 
 void setup() {
   //size(800, 800, PDF, "00.pdf");
@@ -49,7 +50,7 @@ void one(float n, float H){
   beginShape();
   for (float i = 0; i < TWO_PI/2; i += TWO_PI/2020) {
     //noise = 個性
-    float no = noise(i /n);
+    float no = min + noise(i /n);//0-1しかとらない，nは大きいほどなだらかに
     x_fill = cos(i) *radius /no;
     y_fill = sin(i) *radius /no;
     vertex(x_fill, y_fill);
@@ -63,7 +64,7 @@ void one(float n, float H){
   beginShape();
   for (float i = 0; i < TWO_PI/2; i += TWO_PI/360) {
     //上と同様、noise = 個性
-    float no = noise(i /n);
+    float no = min + noise(i /n);
     x_line = cos(i) *radius*1.2 /no;
     y_line = sin(i) *radius*1.2 /no;
     vertex(x_line, y_line);
