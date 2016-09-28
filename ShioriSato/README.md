@@ -13,7 +13,7 @@ ShioriSato.app...ダブルクリックすると、同じフォルダ内にロゴ
 ※beyond2020.pdf
 
 ## 様々なパターンの例
-２度と同じロゴができることはなく、
+２度と同じロゴができることはなく、常に新しいロゴが生まれます。
 
 ![Alt Text](https://github.com/Beyond2020/AlgorithmicLogotype/blob/master/ShioriSato/pattern.jpg) <br>
 ※pattern.pdf
