@@ -1,5 +1,5 @@
-ShioriSato...Processingのデータ
-beyond2020.pdf...提出したロゴデータ
+ShioriSato...Processingのデータ<br>
+beyond2020.pdf...提出したロゴデータ<br>
 pattern.pdf...再生するごとにかたちが変わる例
 
 ## デザインの説明
